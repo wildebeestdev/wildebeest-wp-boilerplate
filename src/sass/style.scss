@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*
+Theme Name: Wildebeest WP Boilerplate
+Theme URI: http://wildebee.st
+Description: WordPress boilerplate theme for Wildebeest projects
+Version: 1.0
+Author: Wildebeest Design & Development
+Author URI: http://wildebee.st
+*/
+
+// Base
+@import "base/_reset";
+@import "base/_config";
+@import "base/_functions";
+@import "base/_text";
+
+// Modules
+@import "modules/_base-layout";
+@import "modules/_sidebar";
+@import "modules/_main-nav";
+@import "modules/_buttons";
+
+// Pages
+@import "pages/_template-name";

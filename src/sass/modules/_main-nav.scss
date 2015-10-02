@@ -1,0 +1,14 @@
+// Main Nav
+// Define styles for main navigation
+.main-header {
+    padding: $spacing--xs 0 $spacing--xl;
+
+    .wrapper {
+        background: none;
+        padding: 0 4%;
+
+        @include breakpoint($max-width) {
+            padding: 0;
+        }
+    }
+}

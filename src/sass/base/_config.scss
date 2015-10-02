@@ -1,0 +1,57 @@
+
+// Fonts
+$font-family--primary       : "Lato", sans-serif, Helvetica, Arial;
+$font-family--secondary     : "Open Sans", sans-serif, Helvetica, Arial;
+$font-family--icon          : "icomoon";
+
+$font-size--primary         : 16px;
+
+// Color Pallete
+// Define here your color pallete
+
+// General Colors
+$font-color--primary        : #787878;
+$font-color--secondary      : #1B1B1B;
+$font-color--tertiary       : #408CFF;
+$bg-color--primary          : #EEE;
+$bg-color--secondary        : #FFF;
+$bg-color--tertiary         : #888;
+$bg-color--quaternary       : #5E6899;
+$border-color--primary      : #DCDCDC;
+
+// Transitions
+$transition--primary        : all 0.3s ease;
+$transition--secondary      : all 0.4s cubic-bezier(0.2, 1, 0.3, 1);
+$transition-fast            : all 0.2s ease;
+$transition-slow            : all 1s ease;
+
+// Responsive
+$phone-small                : 320px;
+$phone-medium               : 480px;
+$phone-large                : 512px;
+$phone-xlarge               : 640px;
+$tablet                     : 768px;
+$desktop-small              : 1024px;
+$desktop-medium             : 1280px;
+$desktop-large              : 1440px;
+$mobile                     : $desktop-small;
+
+// General dimensions and spacing
+$spacing--xxs               : 5px;
+$spacing--xs                : 10px;
+$spacing--s                 : 15px;
+$spacing--m                 : 20px;
+$spacing--l                 : 24px;
+$spacing--xl                : 30px;
+$spacing--xxl               : 45px;
+$max-width                  : $mobile;
+$nav-menu-height            : 90px;
+
+// Z-index
+$z-below-bottom             : -1;
+$z-bottom                   : 0;
+$z-middle-bottom            : 5;
+$z-middle                   : 10;
+$z-middle-top               : 15;
+$z-top                      : 1000;
+$z-above-top                : 1005;

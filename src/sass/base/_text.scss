@@ -1,0 +1,111 @@
+// General
+html {
+    font-size: $font-size--primary;
+}
+body {
+    background: $bg-color--primary;
+    color: $font-color--primary;
+    font-family: $font-family--primary;
+    font-size: $font-size--primary;
+    font-weight: 400;
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1,
+.heading-1 {
+    color: $font-color--primary;
+    font-family: $font-family--secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: $spacing--m 0;
+}
+h2,
+.heading-2 {
+    color: $font-color--primary;
+    font-family: $font-family--secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: $spacing--m 0;
+}
+h3,
+.heading-3 {
+    color: $font-color--primary;
+    font-family: $font-family--secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: $spacing--m 0;
+}
+h4,
+.heading-4 {
+    color: $font-color--primary;
+    font-family: $font-family--secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: $spacing--m 0;
+}
+h5,
+.heading-5 {
+    color: $font-color--primary;
+    font-family: $font-family--secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: $spacing--m 0;
+}
+h6,
+.heading-6 {
+    color: $font-color--primary;
+    font-family: $font-family--secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: $spacing--m 0;
+}
+p,
+.text {
+    color: $font-color--primary;
+    font-family: $font-family--primary;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: $spacing--xs 0;
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.text--small {
+    @extend .text;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0 0 $spacing--m;
+}
+.text--big {
+    @extend .text;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+}
+.text--ellipsed {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a {
+    color: $font-color--tertiary;
+    text-decoration: none;
+    &:hover {
+        color: $font-color--secondary;
+    }
+    &:active,
+    &:focus {
+        outline: 0;
+    }
+}
+strong {
+    font-weight: 700;
+}
