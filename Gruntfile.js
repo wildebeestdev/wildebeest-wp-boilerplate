@@ -77,7 +77,8 @@ module.exports = function(grunt) {
                 strict: true,
                 globals: {
                     jQuery: true
-                }
+                },
+                reporterOutput: ''
             },
             src: ['Gruntfile.js', '<%= app.path.src %>/js/scripts.js']
         },
